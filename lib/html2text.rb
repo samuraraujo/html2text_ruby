@@ -207,7 +207,8 @@ class Html2Text
         if output.empty?
           output = href
         else
-          output = "[#{output}](#{href})"
+          #output = "[#{output}](#{href})"
+          output = "#{output}"
         end
       end
     end
